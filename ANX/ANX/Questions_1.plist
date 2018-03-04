@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Pictures</key>
+	<dict>
+		<key>Picture1</key>
+		<dict>
+			<key>pic</key>
+			<string>100.jpg</string>
+			<key>question</key>
+			<string>What color stands out?</string>
+			<key>answer1</key>
+			<string>Grey</string>
+			<key>answer2</key>
+			<string>Blue</string>
+			<key>answer3</key>
+			<string>Green</string>
+			<key>answer4</key>
+			<string>White</string>
+		</dict>
+		<key>Picture2</key>
+		<dict>
+			<key>pic</key>
+			<string>101.jpg</string>
+			<key>question</key>
+			<string>What texture do you notice?</string>
+			<key>answer1</key>
+			<string>Smooth</string>
+			<key>answer2</key>
+			<string>Rough</string>
+			<key>answer3</key>
+			<string>Rich</string>
+			<key>answer4</key>
+			<string>Light</string>
+		</dict>
+		<key>Picture3</key>
+		<dict>
+			<key>pic</key>
+			<string>102.jpg</string>
+			<key>question</key>
+			<string>What do you notice last?</string>
+			<key>answer1</key>
+			<string>Pasta</string>
+			<key>answer2</key>
+			<string>Tomatoes</string>
+			<key>answer3</key>
+			<string>Basil</string>
+			<key>answer4</key>
+			<string>Shrimp</string>
+		</dict>
+		<key>Picture4</key>
+		<dict>
+			<key>pic</key>
+			<string>103.jpg</string>
+			<key>question</key>
+			<string>Which do you notice first?</string>
+			<key>answer1</key>
+			<string>Strawberry</string>
+			<key>answer2</key>
+			<string>Blueberry</string>
+			<key>answer3</key>
+			<string>Cherry</string>
+			<key>answer4</key>
+			<string>Mint</string>
+		</dict>
+		<key>Picture5</key>
+		<dict>
+			<key>pic</key>
+			<string>104.jpg</string>
+			<key>question</key>
+			<string>Where are these giraffes?</string>
+			<key>answer1</key>
+			<string>A Zoo?</string>
+			<key>answer2</key>
+			<string>Roaming free after the apocalypse?</string>
+			<key>answer3</key>
+			<string>Live action Zootopia?</string>
+			<key>answer4</key>
+			<string>Not in space?</string>
+		</dict>
+		<key>Picture6</key>
+		<dict>
+			<key>pic</key>
+			<string>105.jpg</string>
+			<key>question</key>
+			<string>Which most appeals to you in this photo?</string>
+			<key>answer1</key>
+			<string>Tomatoes</string>
+			<key>answer2</key>
+			<string>Quinoa</string>
+			<key>answer3</key>
+			<string>Chicken</string>
+			<key>answer4</key>
+			<string>Avocado</string>
+		</dict>
+		<key>Picture7</key>
+		<dict>
+			<key>pic</key>
+			<string>106.jpg</string>
+			<key>question</key>
+			<string>Which color stands out to you?</string>
+			<key>answer1</key>
+			<string>Grey</string>
+			<key>answer2</key>
+			<string>Green</string>
+			<key>answer3</key>
+			<string>Purple</string>
+			<key>answer4</key>
+			<string>White</string>
+		</dict>
+		<key>Picture8</key>
+		<dict>
+			<key>pic</key>
+			<string>107.jpg</string>
+			<key>question</key>
+			<string>What appeals to you?</string>
+			<key>answer1</key>
+			<string>Cello</string>
+			<key>answer2</key>
+			<string>Saxophone</string>
+			<key>answer3</key>
+			<string>Violin</string>
+			<key>answer4</key>
+			<string>Blue Wall</string>
+		</dict>
+		<key>Picture9</key>
+		<dict>
+			<key>pic</key>
+			<string>108.jpg</string>
+			<key>question</key>
+			<string>How many penguins are in this photo?</string>
+			<key>answer1</key>
+			<string>3</string>
+			<key>answer2</key>
+			<string>5</string>
+			<key>answer3</key>
+			<string>6</string>
+			<key>answer4</key>
+			<string>10</string>
+		</dict>
+		<key>Picture10</key>
+		<dict>
+			<key>pic</key>
+			<string>109.jpg</string>
+			<key>question</key>
+			<string>What is the weather like?</string>
+			<key>answer1</key>
+			<string>Sunny</string>
+			<key>answer2</key>
+			<string>Rainy</string>
+			<key>answer3</key>
+			<string>Foggy</string>
+			<key>answer4</key>
+			<string>Stormy</string>
+		</dict>
+		<key>Picture11</key>
+		<dict>
+			<key>pic</key>
+			<string>110.jpg</string>
+			<key>question</key>
+			<string>What are they building?</string>
+			<key>answer1</key>
+			<string>House</string>
+			<key>answer2</key>
+			<string>Tower</string>
+			<key>answer3</key>
+			<string>Bridge</string>
+			<key>answer4</key>
+			<string>Chair</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

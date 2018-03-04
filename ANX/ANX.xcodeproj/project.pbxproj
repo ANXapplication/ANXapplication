@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D73FB42204B379800A059CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73FB41204B379800A059CE /* AppDelegate.m */; };
+		9D73FB45204B379800A059CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73FB44204B379800A059CE /* ViewController.m */; };
+		9D73FB48204B379800A059CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB46204B379800A059CE /* Main.storyboard */; };
+		9D73FB4A204B379800A059CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB49204B379800A059CE /* Assets.xcassets */; };
+		9D73FB4D204B379800A059CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB4B204B379800A059CE /* LaunchScreen.storyboard */; };
+		9D73FB50204B379800A059CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73FB4F204B379800A059CE /* main.m */; };
+		9D73FB5A204B379800A059CE /* ANXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73FB59204B379800A059CE /* ANXTests.m */; };
+		9D73FB65204B379800A059CE /* ANXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73FB64204B379800A059CE /* ANXUITests.m */; };
+		9D73FB76204B419000A059CE /* Sonic_Bee_Movie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB75204B419000A059CE /* Sonic_Bee_Movie.jpg */; };
+		9D73FB79204B41C800A059CE /* VisualViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73FB78204B41C800A059CE /* VisualViewController.m */; };
+		9D73FB8C204B888800A059CE /* ANXjsonfile.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB8B204B888700A059CE /* ANXjsonfile.json */; };
+		9D73FB90204B8D3500A059CE /* Questions_1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB8F204B8D3500A059CE /* Questions_1.plist */; };
+		9D73FB92204B993A00A059CE /* ANX images in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB91204B993A00A059CE /* ANX images */; };
+		9D73FB9E204B9B8A00A059CE /* 107.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB93204B9B8800A059CE /* 107.jpg */; };
+		9D73FB9F204B9B8A00A059CE /* 110.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB94204B9B8900A059CE /* 110.jpg */; };
+		9D73FBA0204B9B8A00A059CE /* 101.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB95204B9B8900A059CE /* 101.jpg */; };
+		9D73FBA1204B9B8A00A059CE /* 106.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB96204B9B8900A059CE /* 106.jpg */; };
+		9D73FBA2204B9B8A00A059CE /* 102.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB97204B9B8900A059CE /* 102.jpg */; };
+		9D73FBA3204B9B8A00A059CE /* 100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB98204B9B8900A059CE /* 100.jpg */; };
+		9D73FBA4204B9B8A00A059CE /* 108.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB99204B9B8900A059CE /* 108.jpg */; };
+		9D73FBA5204B9B8A00A059CE /* 103.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB9A204B9B8900A059CE /* 103.jpg */; };
+		9D73FBA6204B9B8A00A059CE /* 109.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB9B204B9B8900A059CE /* 109.jpg */; };
+		9D73FBA7204B9B8A00A059CE /* 105.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB9C204B9B8A00A059CE /* 105.jpg */; };
+		9D73FBA8204B9B8A00A059CE /* 104.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FB9D204B9B8A00A059CE /* 104.jpg */; };
+		9D73FBAA204BA56400A059CE /* visual.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FBA9204BA56300A059CE /* visual.png */; };
+		9D73FBAC204BA56D00A059CE /* Audio-CS.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FBAB204BA56D00A059CE /* Audio-CS.png */; };
+		9D73FBAE204BA94C00A059CE /* Coming Soon1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FBAD204BA94C00A059CE /* Coming Soon1.png */; };
+		9D73FBB0204BACBD00A059CE /* visual (1).png in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FBAF204BACBD00A059CE /* visual (1).png */; };
+		9D73FBB2204BB02D00A059CE /* gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FBB1204BB02C00A059CE /* gradient.png */; };
+		9D73FBB6204C42C700A059CE /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D73FBB5204C42C700A059CE /* MapKit.framework */; };
+		9D73FBBF204C4A3A00A059CE /* IntentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73FBBE204C4A3A00A059CE /* IntentHandler.m */; };
+		9D73FBC7204C4A3A00A059CE /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D73FBC6204C4A3A00A059CE /* IntentsUI.framework */; };
+		9D73FBCB204C4A3A00A059CE /* IntentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73FBCA204C4A3A00A059CE /* IntentViewController.m */; };
+		9D73FBCE204C4A3A00A059CE /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FBCC204C4A3A00A059CE /* MainInterface.storyboard */; };
+		9D73FBD2204C4A3A00A059CE /* TextToSpeechUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9D73FBC5204C4A3A00A059CE /* TextToSpeechUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9D73FBD5204C4A3A00A059CE /* TextToSpeech.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9D73FBBB204C4A3A00A059CE /* TextToSpeech.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9D73FBDF204C557700A059CE /* AuditoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D73FBDE204C557700A059CE /* AuditoryViewController.m */; };
+		9D73FBE1204C5A5600A059CE /* ANX Logo Final in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FBE0204C5A5500A059CE /* ANX Logo Final */; };
+		9D73FBE3204C5D1D00A059CE /* ANX Logo Final.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FBE2204C5D1D00A059CE /* ANX Logo Final.png */; };
+		9D73FBE5204C630700A059CE /* Auditory.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D73FBE4204C630600A059CE /* Auditory.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D73FB56204B379800A059CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D73FB35204B379800A059CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D73FB3C204B379800A059CE;
+			remoteInfo = ANX;
+		};
+		9D73FB61204B379800A059CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D73FB35204B379800A059CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D73FB3C204B379800A059CE;
+			remoteInfo = ANX;
+		};
+		9D73FBD0204C4A3A00A059CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D73FB35204B379800A059CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D73FBC4204C4A3A00A059CE;
+			remoteInfo = TextToSpeechUI;
+		};
+		9D73FBD3204C4A3A00A059CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D73FB35204B379800A059CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D73FBBA204C4A3A00A059CE;
+			remoteInfo = TextToSpeech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D73FBDC204C4A3A00A059CE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9D73FBD5204C4A3A00A059CE /* TextToSpeech.appex in Embed App Extensions */,
+				9D73FBD2204C4A3A00A059CE /* TextToSpeechUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9D73FB3D204B379800A059CE /* ANX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ANX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D73FB40204B379800A059CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D73FB41204B379800A059CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9D73FB43204B379800A059CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9D73FB44204B379800A059CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9D73FB47204B379800A059CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D73FB49204B379800A059CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D73FB4C204B379800A059CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D73FB4E204B379800A059CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D73FB4F204B379800A059CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D73FB55204B379800A059CE /* ANXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D73FB59204B379800A059CE /* ANXTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANXTests.m; sourceTree = "<group>"; };
+		9D73FB5B204B379800A059CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D73FB60204B379800A059CE /* ANXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ANXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D73FB64204B379800A059CE /* ANXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ANXUITests.m; sourceTree = "<group>"; };
+		9D73FB66204B379900A059CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D73FB75204B419000A059CE /* Sonic_Bee_Movie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sonic_Bee_Movie.jpg; sourceTree = "<group>"; };
+		9D73FB77204B41C800A059CE /* VisualViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisualViewController.h; sourceTree = "<group>"; };
+		9D73FB78204B41C800A059CE /* VisualViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisualViewController.m; sourceTree = "<group>"; };
+		9D73FB8B204B888700A059CE /* ANXjsonfile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ANXjsonfile.json; sourceTree = "<group>"; };
+		9D73FB8F204B8D3500A059CE /* Questions_1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Questions_1.plist; sourceTree = "<group>"; };
+		9D73FB91204B993A00A059CE /* ANX images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ANX images"; sourceTree = "<group>"; };
+		9D73FB93204B9B8800A059CE /* 107.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 107.jpg; sourceTree = "<group>"; };
+		9D73FB94204B9B8900A059CE /* 110.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 110.jpg; sourceTree = "<group>"; };
+		9D73FB95204B9B8900A059CE /* 101.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 101.jpg; sourceTree = "<group>"; };
+		9D73FB96204B9B8900A059CE /* 106.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 106.jpg; sourceTree = "<group>"; };
+		9D73FB97204B9B8900A059CE /* 102.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 102.jpg; sourceTree = "<group>"; };
+		9D73FB98204B9B8900A059CE /* 100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 100.jpg; sourceTree = "<group>"; };
+		9D73FB99204B9B8900A059CE /* 108.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 108.jpg; sourceTree = "<group>"; };
+		9D73FB9A204B9B8900A059CE /* 103.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 103.jpg; sourceTree = "<group>"; };
+		9D73FB9B204B9B8900A059CE /* 109.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 109.jpg; sourceTree = "<group>"; };
+		9D73FB9C204B9B8A00A059CE /* 105.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 105.jpg; sourceTree = "<group>"; };
+		9D73FB9D204B9B8A00A059CE /* 104.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 104.jpg; sourceTree = "<group>"; };
+		9D73FBA9204BA56300A059CE /* visual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = visual.png; sourceTree = "<group>"; };
+		9D73FBAB204BA56D00A059CE /* Audio-CS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Audio-CS.png"; sourceTree = "<group>"; };
+		9D73FBAD204BA94C00A059CE /* Coming Soon1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Coming Soon1.png"; sourceTree = "<group>"; };
+		9D73FBAF204BACBD00A059CE /* visual (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visual (1).png"; sourceTree = "<group>"; };
+		9D73FBB1204BB02C00A059CE /* gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gradient.png; sourceTree = "<group>"; };
+		9D73FBB3204C42C200A059CE /* ANX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ANX.entitlements; sourceTree = "<group>"; };
+		9D73FBB5204C42C700A059CE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		9D73FBBB204C4A3A00A059CE /* TextToSpeech.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TextToSpeech.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D73FBBD204C4A3A00A059CE /* IntentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentHandler.h; sourceTree = "<group>"; };
+		9D73FBBE204C4A3A00A059CE /* IntentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentHandler.m; sourceTree = "<group>"; };
+		9D73FBC0204C4A3A00A059CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D73FBC5204C4A3A00A059CE /* TextToSpeechUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TextToSpeechUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D73FBC6204C4A3A00A059CE /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		9D73FBC9204C4A3A00A059CE /* IntentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntentViewController.h; sourceTree = "<group>"; };
+		9D73FBCA204C4A3A00A059CE /* IntentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntentViewController.m; sourceTree = "<group>"; };
+		9D73FBCD204C4A3A00A059CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9D73FBCF204C4A3A00A059CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D73FBDD204C557700A059CE /* AuditoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuditoryViewController.h; sourceTree = "<group>"; };
+		9D73FBDE204C557700A059CE /* AuditoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuditoryViewController.m; sourceTree = "<group>"; };
+		9D73FBE0204C5A5500A059CE /* ANX Logo Final */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "ANX Logo Final"; sourceTree = "<group>"; };
+		9D73FBE2204C5D1D00A059CE /* ANX Logo Final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ANX Logo Final.png"; sourceTree = "<group>"; };
+		9D73FBE4204C630600A059CE /* Auditory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Auditory.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D73FB3A204B379800A059CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D73FBB6204C42C700A059CE /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FB52204B379800A059CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FB5D204B379800A059CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FBB8204C4A3A00A059CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FBC2204C4A3A00A059CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D73FBC7204C4A3A00A059CE /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D73FB34204B379800A059CE = {
+			isa = PBXGroup;
+			children = (
+				9D73FB3F204B379800A059CE /* ANX */,
+				9D73FB58204B379800A059CE /* ANXTests */,
+				9D73FB63204B379800A059CE /* ANXUITests */,
+				9D73FBBC204C4A3A00A059CE /* TextToSpeech */,
+				9D73FBC8204C4A3A00A059CE /* TextToSpeechUI */,
+				9D73FB3E204B379800A059CE /* Products */,
+				9D73FBB4204C42C700A059CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9D73FB3E204B379800A059CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D73FB3D204B379800A059CE /* ANX.app */,
+				9D73FB55204B379800A059CE /* ANXTests.xctest */,
+				9D73FB60204B379800A059CE /* ANXUITests.xctest */,
+				9D73FBBB204C4A3A00A059CE /* TextToSpeech.appex */,
+				9D73FBC5204C4A3A00A059CE /* TextToSpeechUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D73FB3F204B379800A059CE /* ANX */ = {
+			isa = PBXGroup;
+			children = (
+				9D73FBB3204C42C200A059CE /* ANX.entitlements */,
+				9D73FB74204B416400A059CE /* Photos */,
+				9D73FB40204B379800A059CE /* AppDelegate.h */,
+				9D73FB41204B379800A059CE /* AppDelegate.m */,
+				9D73FB43204B379800A059CE /* ViewController.h */,
+				9D73FBE0204C5A5500A059CE /* ANX Logo Final */,
+				9D73FB44204B379800A059CE /* ViewController.m */,
+				9D73FB46204B379800A059CE /* Main.storyboard */,
+				9D73FBDD204C557700A059CE /* AuditoryViewController.h */,
+				9D73FBDE204C557700A059CE /* AuditoryViewController.m */,
+				9D73FB77204B41C800A059CE /* VisualViewController.h */,
+				9D73FB78204B41C800A059CE /* VisualViewController.m */,
+				9D73FB8F204B8D3500A059CE /* Questions_1.plist */,
+				9D73FBE4204C630600A059CE /* Auditory.png */,
+				9D73FBE2204C5D1D00A059CE /* ANX Logo Final.png */,
+				9D73FBB1204BB02C00A059CE /* gradient.png */,
+				9D73FBAD204BA94C00A059CE /* Coming Soon1.png */,
+				9D73FBAF204BACBD00A059CE /* visual (1).png */,
+				9D73FBA9204BA56300A059CE /* visual.png */,
+				9D73FBAB204BA56D00A059CE /* Audio-CS.png */,
+				9D73FB98204B9B8900A059CE /* 100.jpg */,
+				9D73FB95204B9B8900A059CE /* 101.jpg */,
+				9D73FB97204B9B8900A059CE /* 102.jpg */,
+				9D73FB9A204B9B8900A059CE /* 103.jpg */,
+				9D73FB9D204B9B8A00A059CE /* 104.jpg */,
+				9D73FB9C204B9B8A00A059CE /* 105.jpg */,
+				9D73FB96204B9B8900A059CE /* 106.jpg */,
+				9D73FB93204B9B8800A059CE /* 107.jpg */,
+				9D73FB99204B9B8900A059CE /* 108.jpg */,
+				9D73FB9B204B9B8900A059CE /* 109.jpg */,
+				9D73FB94204B9B8900A059CE /* 110.jpg */,
+				9D73FB49204B379800A059CE /* Assets.xcassets */,
+				9D73FB91204B993A00A059CE /* ANX images */,
+				9D73FB4B204B379800A059CE /* LaunchScreen.storyboard */,
+				9D73FB4E204B379800A059CE /* Info.plist */,
+				9D73FB4F204B379800A059CE /* main.m */,
+				9D73FB8B204B888700A059CE /* ANXjsonfile.json */,
+			);
+			path = ANX;
+			sourceTree = "<group>";
+		};
+		9D73FB58204B379800A059CE /* ANXTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D73FB59204B379800A059CE /* ANXTests.m */,
+				9D73FB5B204B379800A059CE /* Info.plist */,
+			);
+			path = ANXTests;
+			sourceTree = "<group>";
+		};
+		9D73FB63204B379800A059CE /* ANXUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D73FB64204B379800A059CE /* ANXUITests.m */,
+				9D73FB66204B379900A059CE /* Info.plist */,
+			);
+			path = ANXUITests;
+			sourceTree = "<group>";
+		};
+		9D73FB74204B416400A059CE /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				9D73FB75204B419000A059CE /* Sonic_Bee_Movie.jpg */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		9D73FBB4204C42C700A059CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D73FBB5204C42C700A059CE /* MapKit.framework */,
+				9D73FBC6204C4A3A00A059CE /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D73FBBC204C4A3A00A059CE /* TextToSpeech */ = {
+			isa = PBXGroup;
+			children = (
+				9D73FBBD204C4A3A00A059CE /* IntentHandler.h */,
+				9D73FBBE204C4A3A00A059CE /* IntentHandler.m */,
+				9D73FBC0204C4A3A00A059CE /* Info.plist */,
+			);
+			path = TextToSpeech;
+			sourceTree = "<group>";
+		};
+		9D73FBC8204C4A3A00A059CE /* TextToSpeechUI */ = {
+			isa = PBXGroup;
+			children = (
+				9D73FBC9204C4A3A00A059CE /* IntentViewController.h */,
+				9D73FBCA204C4A3A00A059CE /* IntentViewController.m */,
+				9D73FBCC204C4A3A00A059CE /* MainInterface.storyboard */,
+				9D73FBCF204C4A3A00A059CE /* Info.plist */,
+			);
+			path = TextToSpeechUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D73FB3C204B379800A059CE /* ANX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D73FB69204B379900A059CE /* Build configuration list for PBXNativeTarget "ANX" */;
+			buildPhases = (
+				9D73FB39204B379800A059CE /* Sources */,
+				9D73FB3A204B379800A059CE /* Frameworks */,
+				9D73FB3B204B379800A059CE /* Resources */,
+				9D73FBDC204C4A3A00A059CE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D73FBD1204C4A3A00A059CE /* PBXTargetDependency */,
+				9D73FBD4204C4A3A00A059CE /* PBXTargetDependency */,
+			);
+			name = ANX;
+			productName = ANX;
+			productReference = 9D73FB3D204B379800A059CE /* ANX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D73FB54204B379800A059CE /* ANXTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D73FB6C204B379900A059CE /* Build configuration list for PBXNativeTarget "ANXTests" */;
+			buildPhases = (
+				9D73FB51204B379800A059CE /* Sources */,
+				9D73FB52204B379800A059CE /* Frameworks */,
+				9D73FB53204B379800A059CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D73FB57204B379800A059CE /* PBXTargetDependency */,
+			);
+			name = ANXTests;
+			productName = ANXTests;
+			productReference = 9D73FB55204B379800A059CE /* ANXTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D73FB5F204B379800A059CE /* ANXUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D73FB6F204B379900A059CE /* Build configuration list for PBXNativeTarget "ANXUITests" */;
+			buildPhases = (
+				9D73FB5C204B379800A059CE /* Sources */,
+				9D73FB5D204B379800A059CE /* Frameworks */,
+				9D73FB5E204B379800A059CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D73FB62204B379800A059CE /* PBXTargetDependency */,
+			);
+			name = ANXUITests;
+			productName = ANXUITests;
+			productReference = 9D73FB60204B379800A059CE /* ANXUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9D73FBBA204C4A3A00A059CE /* TextToSpeech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D73FBD9204C4A3A00A059CE /* Build configuration list for PBXNativeTarget "TextToSpeech" */;
+			buildPhases = (
+				9D73FBB7204C4A3A00A059CE /* Sources */,
+				9D73FBB8204C4A3A00A059CE /* Frameworks */,
+				9D73FBB9204C4A3A00A059CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextToSpeech;
+			productName = TextToSpeech;
+			productReference = 9D73FBBB204C4A3A00A059CE /* TextToSpeech.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9D73FBC4204C4A3A00A059CE /* TextToSpeechUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D73FBD6204C4A3A00A059CE /* Build configuration list for PBXNativeTarget "TextToSpeechUI" */;
+			buildPhases = (
+				9D73FBC1204C4A3A00A059CE /* Sources */,
+				9D73FBC2204C4A3A00A059CE /* Frameworks */,
+				9D73FBC3204C4A3A00A059CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextToSpeechUI;
+			productName = TextToSpeechUI;
+			productReference = 9D73FBC5204C4A3A00A059CE /* TextToSpeechUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D73FB35204B379800A059CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Eric Morales";
+				TargetAttributes = {
+					9D73FB3C204B379800A059CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					9D73FB54204B379800A059CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D73FB3C204B379800A059CE;
+					};
+					9D73FB5F204B379800A059CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D73FB3C204B379800A059CE;
+					};
+					9D73FBBA204C4A3A00A059CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					9D73FBC4204C4A3A00A059CE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9D73FB38204B379800A059CE /* Build configuration list for PBXProject "ANX" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D73FB34204B379800A059CE;
+			productRefGroup = 9D73FB3E204B379800A059CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D73FB3C204B379800A059CE /* ANX */,
+				9D73FB54204B379800A059CE /* ANXTests */,
+				9D73FB5F204B379800A059CE /* ANXUITests */,
+				9D73FBBA204C4A3A00A059CE /* TextToSpeech */,
+				9D73FBC4204C4A3A00A059CE /* TextToSpeechUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D73FB3B204B379800A059CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D73FBA6204B9B8A00A059CE /* 109.jpg in Resources */,
+				9D73FBA0204B9B8A00A059CE /* 101.jpg in Resources */,
+				9D73FB9F204B9B8A00A059CE /* 110.jpg in Resources */,
+				9D73FB4D204B379800A059CE /* LaunchScreen.storyboard in Resources */,
+				9D73FBA5204B9B8A00A059CE /* 103.jpg in Resources */,
+				9D73FBB2204BB02D00A059CE /* gradient.png in Resources */,
+				9D73FBA3204B9B8A00A059CE /* 100.jpg in Resources */,
+				9D73FBAE204BA94C00A059CE /* Coming Soon1.png in Resources */,
+				9D73FB76204B419000A059CE /* Sonic_Bee_Movie.jpg in Resources */,
+				9D73FBA7204B9B8A00A059CE /* 105.jpg in Resources */,
+				9D73FBAC204BA56D00A059CE /* Audio-CS.png in Resources */,
+				9D73FB92204B993A00A059CE /* ANX images in Resources */,
+				9D73FBAA204BA56400A059CE /* visual.png in Resources */,
+				9D73FB8C204B888800A059CE /* ANXjsonfile.json in Resources */,
+				9D73FB4A204B379800A059CE /* Assets.xcassets in Resources */,
+				9D73FB48204B379800A059CE /* Main.storyboard in Resources */,
+				9D73FBE1204C5A5600A059CE /* ANX Logo Final in Resources */,
+				9D73FBA1204B9B8A00A059CE /* 106.jpg in Resources */,
+				9D73FBE5204C630700A059CE /* Auditory.png in Resources */,
+				9D73FBA2204B9B8A00A059CE /* 102.jpg in Resources */,
+				9D73FB9E204B9B8A00A059CE /* 107.jpg in Resources */,
+				9D73FBA8204B9B8A00A059CE /* 104.jpg in Resources */,
+				9D73FBE3204C5D1D00A059CE /* ANX Logo Final.png in Resources */,
+				9D73FB90204B8D3500A059CE /* Questions_1.plist in Resources */,
+				9D73FBA4204B9B8A00A059CE /* 108.jpg in Resources */,
+				9D73FBB0204BACBD00A059CE /* visual (1).png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FB53204B379800A059CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FB5E204B379800A059CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FBB9204C4A3A00A059CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FBC3204C4A3A00A059CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D73FBCE204C4A3A00A059CE /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D73FB39204B379800A059CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D73FBDF204C557700A059CE /* AuditoryViewController.m in Sources */,
+				9D73FB79204B41C800A059CE /* VisualViewController.m in Sources */,
+				9D73FB45204B379800A059CE /* ViewController.m in Sources */,
+				9D73FB50204B379800A059CE /* main.m in Sources */,
+				9D73FB42204B379800A059CE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FB51204B379800A059CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D73FB5A204B379800A059CE /* ANXTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FB5C204B379800A059CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D73FB65204B379800A059CE /* ANXUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FBB7204C4A3A00A059CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D73FBBF204C4A3A00A059CE /* IntentHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D73FBC1204C4A3A00A059CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D73FBCB204C4A3A00A059CE /* IntentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D73FB57204B379800A059CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D73FB3C204B379800A059CE /* ANX */;
+			targetProxy = 9D73FB56204B379800A059CE /* PBXContainerItemProxy */;
+		};
+		9D73FB62204B379800A059CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D73FB3C204B379800A059CE /* ANX */;
+			targetProxy = 9D73FB61204B379800A059CE /* PBXContainerItemProxy */;
+		};
+		9D73FBD1204C4A3A00A059CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D73FBC4204C4A3A00A059CE /* TextToSpeechUI */;
+			targetProxy = 9D73FBD0204C4A3A00A059CE /* PBXContainerItemProxy */;
+		};
+		9D73FBD4204C4A3A00A059CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D73FBBA204C4A3A00A059CE /* TextToSpeech */;
+			targetProxy = 9D73FBD3204C4A3A00A059CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D73FB46204B379800A059CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D73FB47204B379800A059CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D73FB4B204B379800A059CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D73FB4C204B379800A059CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9D73FBCC204C4A3A00A059CE /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D73FBCD204C4A3A00A059CE /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D73FB67204B379900A059CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9D73FB68204B379900A059CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D73FB6A204B379900A059CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ANX/ANX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = ANX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D73FB6B204B379900A059CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = ANX/ANX.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = ANX/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANX";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D73FB6D204B379900A059CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ANXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANX.app/ANX";
+			};
+			name = Debug;
+		};
+		9D73FB6E204B379900A059CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ANXTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANXTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANX.app/ANX";
+			};
+			name = Release;
+		};
+		9D73FB70204B379900A059CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ANXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ANX;
+			};
+			name = Debug;
+		};
+		9D73FB71204B379900A059CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ANXUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANXUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ANX;
+			};
+			name = Release;
+		};
+		9D73FBD7204C4A3A00A059CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = TextToSpeechUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANX.TextToSpeechUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D73FBD8204C4A3A00A059CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = TextToSpeechUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANX.TextToSpeechUI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9D73FBDA204C4A3A00A059CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = TextToSpeech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANX.TextToSpeech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D73FBDB204C4A3A00A059CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G442MF557V;
+				INFOPLIST_FILE = TextToSpeech/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Eric-Morlaes.ANX.TextToSpeech";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D73FB38204B379800A059CE /* Build configuration list for PBXProject "ANX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D73FB67204B379900A059CE /* Debug */,
+				9D73FB68204B379900A059CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D73FB69204B379900A059CE /* Build configuration list for PBXNativeTarget "ANX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D73FB6A204B379900A059CE /* Debug */,
+				9D73FB6B204B379900A059CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D73FB6C204B379900A059CE /* Build configuration list for PBXNativeTarget "ANXTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D73FB6D204B379900A059CE /* Debug */,
+				9D73FB6E204B379900A059CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D73FB6F204B379900A059CE /* Build configuration list for PBXNativeTarget "ANXUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D73FB70204B379900A059CE /* Debug */,
+				9D73FB71204B379900A059CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D73FBD6204C4A3A00A059CE /* Build configuration list for PBXNativeTarget "TextToSpeechUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D73FBD7204C4A3A00A059CE /* Debug */,
+				9D73FBD8204C4A3A00A059CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D73FBD9204C4A3A00A059CE /* Build configuration list for PBXNativeTarget "TextToSpeech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D73FBDA204C4A3A00A059CE /* Debug */,
+				9D73FBDB204C4A3A00A059CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9D73FB35204B379800A059CE /* Project object */;
+}
